@@ -1,0 +1,44 @@
+@font-face{
+    font-family: 'Police';
+    src:    url('LucidaCalligraphyItalic.ttf') format('truetype'),
+            url('LucidaCalligraphyItalic.otf') format('opentype'),
+            url('LucidaCalligraphyItalic.eot'),
+            url('LucidaCalligraphyItalic.eot?#iefix') format('embedded-opentype'),
+            url('LucidaCalligraphyItalic.woff') format('woff'),
+            url('LucidaCalligraphyItalic.svg#Police') format('svg');
+}
+
+
+#arguments{
+    font-family: Police, serif;
+    color: black;
+    font-size: 14px;
+    width: 400px;
+    margin: auto;
+}
+
+#liste {
+    font-family: Police, serif;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    list-style-type: none;
+}
+
+#Solution {
+    font-family: Police, serif;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    width: 650px;
+    margin: auto;
+}
+
+h3{
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+body{
+    background-image: url(Wall.jpg);
+}

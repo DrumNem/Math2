@@ -1,6 +1,6 @@
 <?php
 
-//include 'Coordonate.php'
+include 'Coordonate.php';
 
 // check les options 
 
@@ -12,8 +12,7 @@ if (count($argv) == 9)
 			is_numeric($argv[5]) && is_numeric($argv[6]) && is_numeric($argv[7]) && 
 			is_numeric($argv[8]))
 		{
-			echo "sphère de rayon ".$argv[8]."\n";
-			echo "droite passant par le point (".$argv[2].",".$argv[3].",".$argv[4]."), de vecteur directeur (".$argv[5].",".$argv[6].",".$argv[7].")\n";
+			coor_sphere($argv[2], $argv[3], $argv[4], $argv[5], $argv[6], $argv[7], $argv[8]);
 		}
 		else
 		{
@@ -27,8 +26,7 @@ if (count($argv) == 9)
 			is_numeric($argv[5]) && is_numeric($argv[6]) && is_numeric($argv[7]) && 
 			is_numeric($argv[8]))
 		{
-			echo "cylindre de rayon ".$argv[8]."\n";
-			echo "droite passant par le point (".$argv[2].",".$argv[3].",".$argv[4]."), de vecteur directeur (".$argv[5].",".$argv[6].",".$argv[7].")\n";
+			coor_cylinder($argv[2], $argv[3], $argv[4], $argv[5], $argv[6], $argv[7], $argv[8]);	
 		}
 		else
 		{
@@ -42,8 +40,7 @@ if (count($argv) == 9)
 			is_numeric($argv[5]) && is_numeric($argv[6]) && is_numeric($argv[7]) && 
 			is_numeric($argv[8]))
 		{
-			echo "cône d'angle ".$argv[8]." degrés\n";
-			echo "droite passant par le point (".$argv[2].",".$argv[3].",".$argv[4]."), de vecteur directeur (".$argv[5].",".$argv[6].",".$argv[7].")\n";
+			coor_cone($argv[2], $argv[3], $argv[4], $argv[5], $argv[6], $argv[7], $argv[8]);
 		}
 			else
 		{

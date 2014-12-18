@@ -84,7 +84,6 @@ function int_cylindre($x, $y, $z, $xv, $yv, $zv, $rayon)
 
 function int_cone($x, $y, $z, $xv, $yv, $zv, $angle) 
 {
-	//$rad = deg2rad($angle);
 	$rad = 90 - $angle;
 	$rad = $rad * pi() / 180;
 	$tan_rad = pow(tan($rad), 2);

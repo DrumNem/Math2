@@ -126,4 +126,3 @@ function coor_cone($x, $y, $z, $xv, $yv, $zv, $angle)
 }
 
 ?>
-
